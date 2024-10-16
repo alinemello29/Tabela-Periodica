@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 150px;
+    background: linear-gradient(to right, rgb(0, 26, 255), rgb(248, 3, 228));
+}
+
+div{
+    border: 2px solid rgb(248, 3, 228);
+    padding: 30px;
+    margin: 30px auto;
+    width: 80%;
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    color: #d104fa;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+th, td {
+    border: 1px solid #1201fa;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+th {
+    background-color: #fa04fa;
+}
+
+.metal {
+    background-color: #0a29da;
+}
+
+.nao-metal {
+    background-color: #0408f7;
+}
+
+.metaloide {
+    background-color: #3a0a61;
+}
